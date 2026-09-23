@@ -8,7 +8,7 @@
 | 200 episodes, constant rate | 492 | 534 | +42 (+8.5%) |
 | 500 episodes, rate decay and new seed | 218 | 450 | +232 (+106.4%) |
 
-The final notebook is [pacman_dqn.ipynb](pacman_dqn.ipynb), preserving the executed **500-episode** run. Earlier runs remain in [the 50-episode notebook](notebooks/pacman_dqn_50_episodes.ipynb) and [the 200-episode notebook](notebooks/pacman_dqn_200_episodes.ipynb). Training and both final evaluations finished, and the saved checkpoint was reloaded for evaluation. The notebook preserves all 59 exported outputs. Colab exported null execution counters after reopening; these were left unchanged and the outputs were reconciled against the downloaded results. See [verification and export provenance](methods/verification_500.md).
+The final notebook is [pacman_dqn.ipynb](pacman_dqn.ipynb), preserving the executed **500-episode** run. Earlier runs remain in [the 50-episode notebook](notebooks/pacman_dqn_50_episodes.ipynb) and [the 200-episode notebook](notebooks/pacman_dqn_200_episodes.ipynb). Training and both final evaluations finished, and the saved checkpoint was reloaded for evaluation. The notebook preserves all 59 exported outputs. Its final explanation includes a gallery of the same saved GIFs, because GitHub's notebook renderer otherwise shows text placeholders for GIF output records. Colab exported null execution counters after reopening; these were left unchanged and the outputs were reconciled against the downloaded results. See [verification and export provenance](methods/verification_500.md).
 
 ## Choices and predictions recorded before training
 
