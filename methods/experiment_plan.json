@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-09-17T20:28:11.278692+00:00",
+  "source": "https://github.com/pepealonso95/pacman-dqn/blob/main/pacman_dqn.ipynb",
+  "starter_sha256": "936cf7d735fa0023a6d31e31bfcf4ff2fa82d2dfb5127a730bcf29f6a5b92ea1",
+  "status": "prepared_not_executed",
+  "exploration": 0.2,
+  "learning_rate": 0.0001,
+  "episode_budgets": [
+    50,
+    200
+  ],
+  "training_seed": 42,
+  "evaluation_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "evaluation_exploration": 0.05,
+  "max_decisions_per_game": 3000,
+  "rationale": "Hold exploration and learning rate fixed; compare two fresh training budgets to isolate the episode-budget change. Exploration 0.20 balances random collection and use of learned values; learning rate 0.0001 is the supplied reference.",
+  "prediction_before_training": "The 200-episode agent may collect more pellets and achieve a higher five-game mean than the 50-episode agent because it receives more experience and updates. Improvement is uncertain; outcomes may be noisy or deteriorate.",
+  "next_gate": "Compare the 50- and 200-episode evidence before deciding on 500 episodes."
+}

@@ -1,0 +1,84 @@
+{
+  "exploration": 0.2,
+  "episodes_requested": 500,
+  "learning_rate": 0.0001,
+  "seed": 31415,
+  "device": "cuda",
+  "python": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "gymnasium": "1.3.0",
+    "ale-py": "0.11.2",
+    "opencv-python-headless": "4.14.0.94",
+    "numpy": "2.1.3",
+    "matplotlib": "3.10.0",
+    "Pillow": "11.3.0"
+  },
+  "environment": "ALE/MsPacman-v5",
+  "frame_skip": 4,
+  "sticky_action_probability": 0.25,
+  "noop_max": 30,
+  "grayscale_size": 84,
+  "stack_size": 4,
+  "terminal_on_life_loss": false,
+  "max_decisions_per_game": 3000,
+  "replay_capacity": 5000,
+  "warmup_decisions": 1000,
+  "batch_size": 32,
+  "train_every_decisions": 4,
+  "target_sync_decisions": 1000,
+  "gamma": 0.99,
+  "training_reward_clipping": [
+    -1,
+    1
+  ],
+  "eval_exploration": 0.05,
+  "eval_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "preview_seconds": 20,
+  "preview_speed": 4,
+  "preview_plays": 2,
+  "preview_stride": 4,
+  "preview_frame_ms": 67,
+  "learning_rate_schedule": {
+    "kind": "episode_step_decay",
+    "factor": 0.8,
+    "every_completed_episodes": 125,
+    "rates_by_episode_block": [
+      {
+        "first_episode": 1,
+        "last_episode": 125,
+        "learning_rate": 0.0001
+      },
+      {
+        "first_episode": 126,
+        "last_episode": 250,
+        "learning_rate": 8e-05
+      },
+      {
+        "first_episode": 251,
+        "last_episode": 375,
+        "learning_rate": 6.400000000000001e-05
+      },
+      {
+        "first_episode": 376,
+        "last_episode": 500,
+        "learning_rate": 5.120000000000001e-05
+      }
+    ]
+  },
+  "supplemental_eval_seeds": [
+    606,
+    707,
+    808,
+    909,
+    1010
+  ],
+  "experiment_note": "Fresh 500 episodes; changed training seed and learning-rate schedule. Multi-change experiment, not an isolated episode-budget test."
+}

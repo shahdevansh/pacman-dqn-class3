@@ -1,0 +1,68 @@
+{
+  "baseline_kind": "untrained network",
+  "evaluation_set": "supplemental",
+  "before": {
+    "seeds": [
+      606,
+      707,
+      808,
+      909,
+      1010
+    ],
+    "scores": [
+      240.0,
+      230.0,
+      300.0,
+      240.0,
+      250.0
+    ],
+    "mean": 252.0,
+    "steps": [
+      537,
+      529,
+      477,
+      506,
+      494
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "after": {
+    "seeds": [
+      606,
+      707,
+      808,
+      909,
+      1010
+    ],
+    "scores": [
+      910.0,
+      420.0,
+      830.0,
+      370.0,
+      1900.0
+    ],
+    "mean": 886.0,
+    "steps": [
+      657,
+      387,
+      731,
+      386,
+      968
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "evaluation_exploration": 0.05,
+  "max_decisions_per_game": 3000
+}

@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "completed_episodes": 500,
+  "total_decisions": 292152,
+  "learning_updates": 72789,
+  "initial_learning_rate": 0.0001,
+  "final_learning_rate": 5.120000000000001e-05,
+  "elapsed_seconds_including_periodic_demos": 1150.267762866
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "episode": 25,
+    "seeds": [
+      101
+    ],
+    "scores": [
+      240.0
+    ],
+    "mean": 240.0,
+    "steps": [
+      576
+    ],
+    "time_limited": [
+      false
+    ]
+  },
+  {
+    "episode": 50,
+    "seeds": [
+      101
+    ],
+    "scores": [
+      450.0
+    ],
+    "mean": 450.0,
+    "steps": [
+      472
+    ],
+    "time_limited": [
+      false
+    ]
+  }
+]
