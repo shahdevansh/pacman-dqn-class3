@@ -1,6 +1,6 @@
 # Verification of the completed 500-episode experiment
 
-The raw Colab download and full results ZIP are preserved locally. The submission notebook changes only the final explanatory markdown cell; every code cell, saved output, and execution counter remains identical to the raw export. The earlier notebooks and original result files are also preserved.
+The raw Colab download and full results ZIP are preserved locally. The submission notebook changes only the final explanatory markdown cell (including a gallery of the same saved GIFs for GitHub, whose renderer otherwise shows text placeholders for `image/gif` outputs); every code cell, saved output, and execution counter remains identical to the raw export. The earlier notebooks and original result files are also preserved.
 
 ## Evidence checked
 
